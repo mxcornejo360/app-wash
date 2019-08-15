@@ -1,0 +1,29 @@
+ion-car{
+    width: 100%;
+}
+
+
+
+@media (min-width: 800px) {
+    ion-car{
+        width: 100%;
+        margin:0;
+        padding: 0;
+    }
+    ion-slide{
+        margin:0;
+        padding: 0;
+    }
+    .sc-ion-card-md-h {
+        margin-left: 0;
+        margin-right: 0;
+        -webkit-margin-start: 0;
+        margin-inline-start: 0;
+        -webkit-margin-end: 0;
+        margin-inline-end: 0;
+    }
+    .sc-ion-card-md-h {
+        margin-top: 0 !important;
+        border-radius: 0!important;
+    }
+  }
