@@ -5,32 +5,24 @@
     .titulo-productos{
         margin-left: 1rem;
         font-weight: 300;
-        padding-left: 6.6rem;
+        padding-left: 12rem;
         color: var(--ion-color-primary);
     }
-  }
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
-
 
 
 ion-card{
-    min-width: 280px;
+min-width: 280px;
+display: inline-block;
 }
 
 .titulo-productos{
-    margin-left: 1rem;
-    font-weight: 300;
-    color: var(--ion-color-primary);
-}
-
-.segment-scrollable.sc-ion-segment-md-h {
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: auto;
-    overflow-x: scroll;
+margin-left: 1rem;
+font-weight: 300;
+color: var(--ion-color-primary);
 }
