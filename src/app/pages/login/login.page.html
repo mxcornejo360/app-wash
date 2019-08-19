@@ -1,9 +1,12 @@
 <app-header titulo="login"></app-header>
 
 
-<ion-content>
+<ion-content class="login">
+    <div class="cajaLogoLogin">
+        <img src="../../../assets/img/logo-solo.png" alt="" class="logoLogin">
+    </div>
     <ion-card class="contenedorLogin">
-        <form onsubmit="processForm(event)">
+        <!-- <form onsubmit="processForm(event)">
             <ion-list lines="full" class="ion-no-margin ion-no-padding">
             <ion-item>
                 <ion-label position="stacked">Nombre <ion-text color="danger">*</ion-text></ion-label>
@@ -29,8 +32,41 @@
             <div class="ion-padding">
             <ion-button expand="block" type="submit" class="ion-no-margin">Iniciar sesión</ion-button>
             </div>
-        </form>
-        <a class="ion-padding-horizontal">¿Olvidó su contraseña?</a>
+        </form> -->
+
+            <label class="field a-field a-field_a2 page__field uno">
+                <input class="field__input a-field__input" placeholder="Nombre Apellido" required>
+                <span class="a-field__label-wrap">
+                <span class="a-field__label">Nombre</span>
+                </span>
+            </label>
+            <label class="field a-field a-field_a2 page__field">
+                <input class="field__input a-field__input" placeholder="Rut" required>
+                <span class="a-field__label-wrap">
+                <span class="a-field__label">Rut</span>
+                </span>
+            </label>  
+            <label class="field a-field a-field_a2 page__field">
+                <input class="field__input a-field__input" placeholder="e-mail" required>
+                <span class="a-field__label-wrap">
+                <span class="a-field__label">e-mail</span>
+                </span>
+            </label> 
+            <label class="field a-field a-field_a2 page__field dos">
+                <input class="field__input a-field__input" placeholder="teléfono" required>
+                <span class="a-field__label-wrap">
+                <span class="a-field__label">teléfono</span>
+                </span>
+            </label>    
+
+            <div class="ion-padding">
+                <ion-button expand="block" type="submit" class="ion-no-margin">Iniciar sesión</ion-button>
+            </div>
+        
+
+        <div class="ion-padding center">
+            <a expand="block" type="submit" class="ion-no-margin">¿Olvidó su contraseña?</a>
+        </div>
     </ion-card>
 
 </ion-content>

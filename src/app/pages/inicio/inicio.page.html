@@ -1,19 +1,19 @@
 <ion-header>
   <ion-toolbar color="primary">
-
-      <ion-button slot="start" routerLink="/login">
+      <ion-buttons slot="secondary">
+      <ion-button  routerLink="/login">
         <ion-icon slot="icon-only" name="contact"></ion-icon>
       </ion-button>
-
-    <ion-buttons slot="end">
-      <!-- <ion-button (click)="toggleMenu()">
-        <ion-icon slot="icon-only" name="menu"></ion-icon>
-      </ion-button> -->
-      <ion-menu-button menu="primerMenu"></ion-menu-button>
     </ion-buttons>
 
-    <ion-title>Wash</ion-title>
+      <ion-title>Wash</ion-title>
+
+      <ion-buttons slot="primary">
+        <ion-menu-button menu="primerMenu"></ion-menu-button>
+      </ion-buttons>
+
   </ion-toolbar>
+
 </ion-header>
 
 <ion-content>
